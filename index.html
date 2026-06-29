@@ -1,11 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minimal Blog Card Challenge</title>
+    <title>Minimal Blog Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <main></main>
+    <main class="page" aria-label="Minimal Blog Card">
+      <article class="blog-card">
+        <img
+          class="blog-card__image"
+          src="./cactus.jpg"
+          alt="Cacto"
+        />
+
+        <div class="blog-card__content">
+          <span class="blog-card__tag">Design</span>
+          <h1 class="blog-card__title">Embracing Minimalism</h1>
+          <p class="blog-card__description">
+            From minimalist sculptures to minimalist paintings, this blog will
+            inspire you to appreciate the beauty that lies in simplicity.
+          </p>
+        </div>
+
+        <footer class="blog-card__footer">Annie Spratt</footer>
+      </article>
+    </main>
   </body>
 </html>
